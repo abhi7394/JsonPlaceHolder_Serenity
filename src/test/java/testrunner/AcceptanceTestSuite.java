@@ -6,5 +6,5 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/main/resources/", glue="steps")
+@CucumberOptions(features="src/test/resources/", glue="steps")
 public class AcceptanceTestSuite extends BaseTest {}
